@@ -63,8 +63,3 @@ This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
  ### Summary
  Digested LeNet-5 Architecture , Hyperparameter tuning by exploreing BATCH_SIZE and EPOCH , and achieved 93.9% ~ 95% validation set accuracy and around 93% testing accuracy. That was pretty good since two accuracies are balanced. However new data set was not predicted well (87.5% accuracy). Need to apply more image data preprossing(RGB 2 gray, applying gausian filter or other filters, etx) Even for normazliation, I could find min and max or RGB data and normalize data by dividing the difference between min-max instead of divining by 255
  
- ### Dependencies
- This lab requires:
- * [CarND Term1 Starter Kit](https://github.com/udacity/CarND-Term1-Starter-Kit)
- The lab environment can be created with CarND Term1 Starter Kit including traning, validation and testing data set along with train/test images.
-
