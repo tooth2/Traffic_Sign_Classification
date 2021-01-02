@@ -6,10 +6,6 @@
  ---
 This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) is to train and validate a model so it can classify traffic sign images. After the model is trained, new German traffic signs on the web are classified.
  
- To meet specifications, the project will require submitting three files:
- * the Ipython notebook with the code
- * a writeup report either as a markdown or pdf file
- 
  Load Data Set
  ---
  Read data using pickle
@@ -71,5 +67,5 @@ This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
  Applied top 5 Softmax predicted signs and listed each probabilities along with predected sign name in the bar chart
  One failed example, 80speed limit showed 30 speed limit with 100% probabilities. Outstading issues are row resolution images.I only used data normalization by divining 255. However, I could experiment gray scale and apply gausian filter or other filters to extract more distintive features before applying CNN in LeNet-5 architecture.
  ### Summary
- Digested LeNet-5 Architecture , Hyperparameter tuning by exploreing BATCH_SIZE and EPOCH , and achieved 93.9% ~ 95% validation set accuracy and around 93% testing accuracy. That was pretty good since two accuracies are balanced. However new data set was not predicted well (87.5% accuracy). Need to apply more image data preprossing(RGB 2 gray, applying gausian filter or other filters, etx) Even for normazliation, I could find min and max or RGB data and normalize data by dividing the difference between min-max instead of divining by 255
+ Applied LeNet-5 Architecture , Hyperparameter tuning by exploreing BATCH_SIZE and EPOCH , and achieved 93.9% ~ 95% training set accuracy and around 93% validation accuracy. That was pretty good since two accuracies are balanced. For future work, I can apply more image data preprossing technique(RGB2Gray, applying gausian filter or Rotations, translations and scaling for data augmentation , etc) Even for normazliation, I could find min and max or RGB data and normalize data by dividing the difference between min-max instead of divining by 255. For more advanced technique, Contrast-limited Adaptive Histogram Equalization, CLAHE, is other normalization method I can try.
  
