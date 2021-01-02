@@ -31,7 +31,9 @@ This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
  ---
 * Training Accuracy = 0.937
 * Validation Accuracy = 0.934
+
 ![accuracy](accuracy.png)
+
 * new Test Image
 ![test](test.png) 
 
