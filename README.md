@@ -27,6 +27,11 @@ This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
  * Analyze the softmax probabilities of the new images
  * Summarize the results with a written report
  
+ Result
+ ---
+* Validation Accuracy = 0.937
+* Test Accuracy = 0.934
+
  ### Model Architecture
  ### Solution:Implement LeNet-5
  Implement the LeNet-5(http://yann.lecun.com/exdb/lenet/) neural network architecture
