@@ -29,8 +29,11 @@ This project, using the [German Traffic Sign Dataset](http://benchmark.ini.rub.d
  
  Result
  ---
-* Validation Accuracy = 0.937
-* Test Accuracy = 0.934
+* Training Accuracy = 0.937
+* Validation Accuracy = 0.934
+![accuracy](accuracy.png)
+* new Test Image
+![test](test.png) 
 
  ### Model Architecture
  ### Solution:Implement LeNet-5
